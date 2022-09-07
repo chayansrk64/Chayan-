@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project 01</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->  
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+     
+    <div class="top-nav">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Mohansarkar@gmail.com</span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>016000000000</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class=" social-links">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- main nav------------ -->
+ 
+    
+    <nav class="navbar navbar-expand-lg bg-white sticky-top" id="home">
+        <div class="container">
+          <a class="navbar-brand" href="#">Proxima <span>.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero-slider" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#milestone">Milestone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#review">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#blog">Blog</a>
+              </li>
+              <div class="btn btn-danger ms-lg-3" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT US</div>
+               
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
+     
+<!-- main nav end---- -->
+<!-- slider section start---------     -->
+<div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+  <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h6 class="text-uppercase text-white"> We craft digital experiences</h6>
+          <h1 class="display-2 my-3 text-white text-uppercase">Design Driven for <br> Professionals</h1>
+          <div class="btn btn-danger ">Get Satarted</div>
+          <div class="btn btn-outline-light ms-md-3">Our Work</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h6 class="text-uppercase text-white"> design driven for professionals </h6>
+          <h1 class="display-2 my-3 text-white text-uppercase">We craft digital  <br>experiences</h1>
+          <div class="btn btn-danger ">Get Satarted</div>
+          <div class="btn btn-outline-light ms-md-3">Our Work</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- slider section enb---------     -->
+<!-- About section star---------     -->
+<section id="about"> 
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-lg-5">
+      <div class="row">
+        <div class="col-12 info-box">
+          <img src="./img/icon4.png" alt="">
+          <div>
+            <h5>Digital Marketing</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga aspernatur  </p>
+          </div>
+        </div>
+
+        <div class="col-12 info-box mt-4">
+          <img src="./img/icon4.png" alt="">
+          <div>
+            <h5>Digital Marketing</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga aspernatur  </p>
+          </div>
+        </div>
+
+        <div class="col-12 info-box mt-4">
+          <img src="./img/icon4.png" alt="">
+          <div>
+            <h5>Digital Marketing</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga aspernatur </p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+    <div class="col-lg-5">
+      <img src="./img/about.png" alt="">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- about section end---------     -->
+<!-- milestone section start---------     -->
+<section id="milestone" class="bg-cover">
+  <div class="container" >
+    <div class="row gy-4 text-center justify-content-center">
+      
+      <div class="col-lg-2 col-sm-6">
+        <div class="display-4">90K+ </div>
+        <p class="mb-0">Happy Clients</p>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <div class="display-4">45M </div>
+        <p class="mb-0">Lines of code</p>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <div class="display-4">190 </div>
+        <p class="mb-0">Total Downloads</p>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <div class="display-4">380K+ </div>
+        <p class="mb-0">Youtube Subscribers</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- milestone section end---------     -->
+<!-- services section start---------     -->
+<section id="service"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4 intro">
+        <h5>Our Services</h5>
+        <h2>What We Do?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Molestiae   sequi sit eaque! Assumenda exercitationem   nemo, labore corrupti  enim non optio.</p>
+    
+      </div>
+    </div>
+       
+     <div class="row g-4">
+      <div class="col-lg-4 col-sm-6">
+          <div class="service-box text-center">
+            <img src="./img/icon1.png" alt="">
+            <h5>Digital Marketing</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="service-box text-center">
+          <img src="./img/icon2.png" alt="">
+          <h5>Digital Marketing</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="service-box text-center">
+        <img src="./img/icon3.png" alt="">
+        <h5>Digital Marketing</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+      </div>
+  </div>
+
+  <div class="col-lg-4 col-sm-6">
+    <div class="service-box text-center">
+      <img src="./img/icon4.png" alt="">
+      <h5>Digital Marketing</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+    </div>
+</div>
+
+<div class="col-lg-4 col-sm-6">
+  <div class="service-box text-center">
+    <img src="./img/icon5.png" alt="">
+    <h5>Digital Marketing</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+  </div>
+</div>
+
+<div class="col-lg-4 col-sm-6">
+  <div class="service-box text-center">
+    <img src="./img/icon6.png" alt="">
+    <h5>Digital Marketing</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate? Aut atque soluta veritatis aliquid cupiditate</p>
+  </div>
+</div>
+     </div>
+  </div>
+</section>
+
+<!-- services section end---------     -->
+<!-- work section start---------     -->
+<section id="team" class="  bg-light">
+  <div class="container"> 
+  <div class="row">
+    <div class="col-12 text-center intro ">
+      <h5>Work</h5>
+      <h2 class="text-primary">Successful Projects!</h2>
+      <p class="text-muted ">Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Molestiae   sequi sit eaque! Assumenda exercitationem   nemo, labore corrupti  enim non optio.</p>
+    </div>
+  </div>
+  <div id="project-slider" class="owl-theme owl-carousel">
+    <div class="project">
+      <img src="./img/project1.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Project Title</h2>
+        <h6>Project Subtitle</h6>
+      </div>
+    </div>
+    <div class="project">
+      <img src="./img/project2.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Project Title</h2>
+        <h6>Project Subtitle</h6>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="./img/project3.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Project Title</h2>
+        <h6>Project Subtitle</h6>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="./img/project4.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Project Title</h2>
+        <h6>Project Subtitle</h6>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="./img/project5.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Project Title</h2>
+        <h6>Project Subtitle</h6>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+<!-- work section end---------     -->
+
+<!-- review  section start------ -->
+<section id="review">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 intro text-center">
+        <h5>Team</h5>
+      <h2 class="text-primary">Meet Our Crue Members</h2>
+      <p class="text-muted ">Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Molestiae   sequi sit eaque! Assumenda exercitationem   nemo, labore corrupti  enim non optio.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="team-member">
+          <div class="img-wrapper">
+              <img src="./img/team_1.jpg" alt="">
+              <div class="overlay"></div>
+              <div class=" social-links">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="content">
+            <h5>Marvin McKinney</h5>
+            <p>Marketing Co-ordinator</p>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-lg-4">
+          <div class="team-member">
+            <div class="img-wrapper">
+                <img src="./img/team_1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class=" social-links">
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="content">
+              <h5>Marvin McKinney</h5>
+              <p>Marketing Co-ordinator</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="team-member">
+            <div class="img-wrapper">
+                <img src="./img/team_1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class=" social-links">
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="content">
+              <h5>Marvin McKinney</h5>
+              <p>Marketing Co-ordinator</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- review section end------ -->
+
+<!-- ------Orginal review setion start----- -->
+<section id="review-slider" class="bg-cover">
+
+  <div class="owl-carousel owl-theme" id="owl-carousel">
+     <div class="review2">
+      <img src="./img/team_1.jpg" alt="">
+      <h4>Jonathon Doe</h4>
+      <small>Web Developer</small>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, velit accusantium. Quia veniam libero eveniet perferendis ducimus tempore rem quas laborum, vel explicabo consectetur suscipit maxime maiores quaerat voluptates nesciunt.</p>
+     </div>
+
+     <div class="review2">
+      <img src="./img/team_2.jpg" alt="">
+      <h4>Jonathon Doe</h4>
+      <small>Web Developer</small>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, velit accusantium. Quia veniam libero eveniet perferendis ducimus tempore rem quas laborum, vel explicabo consectetur suscipit maxime maiores quaerat voluptates nesciunt.</p>
+     </div>
+
+     <div class="review2">
+      <img src="./img/team_3.jpg" alt="">
+      <h4>Jonathon Doe</h4>
+      <small>Web Developer</small>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, velit accusantium. Quia veniam libero eveniet perferendis ducimus tempore rem quas laborum, vel explicabo consectetur suscipit maxime maiores quaerat voluptates nesciunt.</p>
+     </div>
+
+
+</div>
+</section>
+
+<!-- ------Orginal review setion end----- -->
+ <!-- -----blog section start------- -->
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro text-center">
+          <h5>Blog</h5>
+        <h2 class="text-primary">Latest Blogs Ever</h2>
+        <p class="text-muted ">Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Molestiae   sequi sit eaque! Assumenda exercitationem   nemo, labore corrupti  enim non optio.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="blog-post"> 
+            <a href="#" class="tag">Web Design</a>
+            <img src="./img/project2.jpg" alt="">
+            <small>12 December 2017</small>
+            <h4><a href="">Web designer in 2022</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad corrupti velit consectetur, magnam esse assumenda incidun</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="blog-post"> 
+            <a href="#" class="tag">Programming</a>
+            <img src="./img/project5.jpg" alt="">
+            <small>12 December 2017</small>
+            <h4><a href="">Web designer in 2022</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad corrupti velit consectetur, magnam esse assumenda incidun</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="blog-post"> 
+            <a href="#" class="tag">Marketing</a>
+            <img src="./img/project3.jpg" alt="">
+            <small>12 December 2017</small>
+            <h4><a href="">Web designer in 2022</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad corrupti velit consectetur, magnam esse assumenda incidun</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+ <!-- -----blog section end------- -->
+
+<!-- ------footer section start------ -->
+ <footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="logo-edit">
+          <a href="#" class="navbar-brand">Prixima <span>.</span></a>
+        </div>
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere laboriosam quo dicta fuga id error.</p>
+        <div class=" social-link">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+  
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="mb-0 para"> Copyright@2022. All right reserved</p>
+    </div>
+  </div>
+ </footer>
+
+<!-- ------footer section end------ -->
+
+<!-- ----form------ -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+ 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl  vertical-middle modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="container-fluid">
+           <div class="row">
+            <div class="col-lg-4 bg-cover" style="background-image:url(./img/c2.jpg); min-height: 300px;"></div>
+          <div class="col-lg-8">
+            <form action="" class="row p-lg-5 gy-3">
+              <h2>Get In Touch</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, natus?</p>
+              <div class="col-lg-6">
+                <label for="exampleFormControlInput1" class="form-label">First Name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First name">
+              </div>
+
+              <div class="col-lg-6">
+                <label for="exampleFormControlInput1" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Surename">
+              </div>
+
+              <div class="col-12">
+                <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+                <input type="mail" class="form-control" id="exampleFormControlInput1" placeholder="Example@gmail.com">
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message:</label>
+                <textarea name="" id="text" cols="30" rows="4" class="form-control" placeholder="Leave comment here..."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send Message</button>
+                <button type="button" class="btn btn-danger">Close</button> 
+
+              </div>
+           </div>
+               
+            </form>
+          </div>
+        </div>
+         
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- java script link------------ -->
+ <script src="./js/jqeuery.min.js"></script>
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="./js/owl.carousel.min.js"></script>
+ <script src="./js/app.js"></script>
+
+</body>
+</html>

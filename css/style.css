@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Cookie&family=Mouse+Memoirs&family=Pacifico&family=Rock+Salt&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=The+Nautigal:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Barlow, sans-serif;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a{
+    color: #092032;
+    transition: all 0.4s ease;
+    font-weight: 500;
+    
+}
+a:hover{
+    color: #ff4d29;
+}
+img{
+    width: 100%;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* start---- */
+.top-nav{
+    background-color: rgb(199, 73, 73);
+    padding-top:5px ;
+    padding-bottom:5px ;
+    
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    color: white;
+    margin-right: 15px;   
+} 
+.top-nav i, .top-nav span{
+    vertical-align: middle;
+}
+.social-links i{
+    vertical-align: middle;
+}
+.social-links a{
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+
+}
+.social-links a:hover{
+    background-color: white;
+    color: red;
+}
+/* main nav start------- */
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+ 
+.container .navbar-brand{
+   font-size: 2rem;
+    font-weight: 700;
+    color: #2E2C2E;
+     
+}
+.navbar-brand span{
+    color: red;
+    margin-left: -8px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #838789;
+    font-weight:500;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color:red;
+}
+.navbar-nav .btn-danger{
+    font-weight: 500;
+}
+
+
+/* main nav end-------- */
+/* -- slider section start--------- */
+.slide1{
+     background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/bg_banner1.jpg);
+
+}
+.slide2{
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/bg_banner2.jpg);
+
+}
+
+.owl-prev{
+    height: 200px;
+    width: 100px;
+    position:absolute;
+    top: 40%;
+    left: 0;
+    background-color: transparent !important;
+    font-size: 100px !important;
+    color: white !important;
+    margin-top: -77px !important;
+ }
+
+.owl-next{
+    height: 200px;
+    width: 100px;
+    position:absolute;
+    top: 40%;
+    right: 0;
+    background-color:transparent !important;
+    font-size: 100px !important;
+    color: white !important;
+    margin-top: -77px !important;
+ }
+
+/* -- slider section end--------- */
+  
+/* about section start------- */
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box img{
+  width: 90px;
+  margin-right: 20px; 
+}
+
+
+/* about section end------- */
+/* - milestone section start--------- */
+#milestone{
+    background: linear-gradient(rgba(255, 77,41, 0.7), rgba(255, 77,41, 0.7)), url(/img/bg_banner2.jpg);
+}
+ 
+#milestone .display-4, .mb-0{
+    font-weight: 600;
+    color: white;
+}
+/* - milestone section end--------- */
+
+/* - services section end--------- */
+.intro h5{
+    color:purple;
+}
+.intro h2{
+    font-size:3rem;   
+}
+.intro p{
+    opacity: 0.6;
+    font-weight: 500;
+    max-width: 500px;
+    margin: auto;
+}
+.service-box{
+    padding: 10px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) ;
+    transition: 0.6s;
+}
+.service-box:hover{
+    transform: scale(1.05);
+}
+.service-box img{
+    width: unset;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+.service-box h5{
+    margin-bottom: 20px;
+}
+.service-box p{
+    opacity: 0.6;
+}
+
+
+
+
+/* - services section start--------- */
+/* - work section start--------- */
+ .intro .text-muted{
+    margin-bottom: 20px;
+ }
+ .project{
+    position: relative;
+ }
+ .project .overlay{
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0), rgba(9, 32, 50, 0.8));
+ }
+
+ .project .content{
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+     padding: 32px;
+  }
+  .project .content h2, h6{
+    color: white;
+    font-size: 2.2rem;
+  }
+  .content h6:before{
+    content: '';
+    height: 2px;
+    width: 35px;
+    display: inline-block;
+    background-color: goldenrod;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+/* - work section end--------- */
+
+/* review section start---- */
+#review{
+    background-color: #5161712c;
+}
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.team-member .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -10%;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.img-wrapper .social-links{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: -1;
+}
+.team-member:hover .overlay{
+    opacity: 1;
+    top: 0;
+}
+.team-member:hover .social-links{
+    opacity: 1;
+    top: 50%;
+}
+.team-member{
+    text-align: center;
+}
+.team-member .content{
+    margin-top: 24px;
+}
+
+/* review section end---- */
+
+/* ---- Orginal review section start------ */
+#review-slider{
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)), url(../img/bg_banner1.jpg);
+
+}
+.review2{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.review2 img{
+    width: 150px !important;
+    margin: auto;
+    border-radius:50%;
+    margin-bottom: 5px; 
+    margin-top: 1px;
+}
+.review2 h4{
+    font-size: 2rem;
+    color: white;
+    
+
+}
+.review2 small{
+    color:#ff4d29;
+}
+.review2 p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.owl-dots{
+    color: #ff4d29;
+}
+.owl-dot.active span{
+    background-color: red !important;
+}
+/* ---- Orginal review section end------ */
+/* -----blog section start------- */
+.blog-post{
+    position: relative;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    padding-bottom: 30px;
+}
+.blog-post .tag{
+    position: absolute;
+    padding: 4px 12px;
+    background-color: #ff4d29;
+    color: white;
+    top: 20px;
+    left: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+.blog-post img{
+    margin-bottom: 12px;
+}
+.blog-post h4{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    padding-left: 27px;
+   
+}
+.blog-post h4 a{
+    text-decoration: none;  
+}
+.blog-post h4:hover a{
+    color: #ff4d29;
+}
+.blog-post p{
+    padding-left: 27px;
+}
+
+.blog-post small{
+    color: #ff4d29;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-left: 27px;
+}
+/* -----blog section end------- */
+/* ------footer section start------  */
+
+#footer{
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)), url(../img/bg_banner1.jpg);
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+.col-lg-6 .navbar-brand{
+    color:white;
+    font-size: 2.4rem;
+}
+.logo-edit{
+    padding-bottom: 30px;
+}
+.social-link{
+    font-size: 2.5rem;
+     
+}
+.social-link a{
+    color: wheat;
+    padding-left: 10px;
+
+}
+.social-link a:hover{
+    color:#ff4d29;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.288);
+}
+ 
+.para{
+    color: white;
+    padding: 30px;
+}
+
+
+/* ------footer section end------  */
+
+/* ----form----- */
+
+ input:focus[type="text"] {
+    box-shadow: none;
+    border-color: #ff4d29;
+ }
+ input:focus[type="mail"] {
+    box-shadow: none;
+    border-color: #ff4d29;
+ } 
+ #text:focus{
+    box-shadow: none;
+    border-color: #ff4d29;
+ }
+
+ /* .form-control:focus{
+    box-shadow: none;
+    border-color: #ff4d29;  
+ } */
+
+ 
